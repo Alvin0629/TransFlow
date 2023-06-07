@@ -9,7 +9,7 @@ This repository provides infer code for: **Transflow: Transformer as flow learne
 2. install dependencies.
 
 ```
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 
 # Demo visualization of flow estimation
