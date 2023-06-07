@@ -1,6 +1,6 @@
 # Infer_demo_TransFlow
 
-This repository provides demo infer code for: Transflow: Transformer as flow learner.
+This repository provides infer code for: **Transflow: Transformer as flow learner.**
 
 
 
@@ -13,14 +13,16 @@ pip install -r requirement.txt
 ```
 
 # Demo visualization of flow estimation
-1. Download landmark pre-trained model at [GoogleDrive](https://drive.google.com/file/d/1tDqX2nG1qATqrd2fEb4Sgs4av25d9tgN/view?usp=sharing), and put it into ```FaceLandmark/model/```
-2. Run the test file
+1. Download trained model at [GoogleDrive] https://drive.google.com/drive/folders/1XbK0gDshbqZRirEvC9eA4OHB_crn9d0z?usp=sharing), put the demo.pth into ```checkpoints/``` and put the mae_pvt.pth into the ```root/``` folder.
+
+2. Run the inference 
 
 ```
-python visualize_flow.py
+python infer.py --keep_size
 ```
+3. The flow estimations for ```demo_frames/``` will be saved under ```demo_viz_output/demo_frames/```
 
-If you find the demo is useful, you can be cite it as:
+If you find the work is useful, please cite it as:
 
 ```
 @inproceedings{lu2023transflow,
