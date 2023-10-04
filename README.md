@@ -1,6 +1,6 @@
-# Infer_demo_TransFlow
+# TransFlow
 
-This repository provides infer code for: **Transflow: Transformer as flow learner.**
+This repository provides code for: **Transflow: Transformer as flow learner.**
 
 
 
