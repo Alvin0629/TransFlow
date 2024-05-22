@@ -12,7 +12,7 @@ This repository provides code for: **Transflow: Transformer as flow learner.**
 pip install -r requirements.txt
 ```
 
-# Demo of flow estimation
+## Demo of flow estimation
 1. Download trained model at [GoogleDrive] https://drive.google.com/drive/folders/1XbK0gDshbqZRirEvC9eA4OHB_crn9d0z?usp=sharing), put the demo.pth into ```checkpoints/``` and put the mae_pvt.pth into the ```root/``` folder.
 
 2. Run the inference 
@@ -22,7 +22,7 @@ python infer.py --keep_size
 ```
 3. The flow estimations for ```demo_frames/``` will be saved under ```demo_viz_output/demo_frames/```
 
-# Training of flow estimation, support multi-frame
+## Training of flow estimation, support multi-frame
 Refer to files with suffix of '_multiframe' for arbitary frame number setting.
 ```
 python -u train_flow.py  --name NAME --stage 'STAGE_NAME' --validation 'VAL_NAME'
